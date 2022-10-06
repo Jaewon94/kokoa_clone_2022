@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo&family=Roboto:ital,wght@1,300;1,400&display=swap");
+@import "reset.css";
+@import "variables.css";
+
+/* componenets */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+
+/* screems */
+@import "screens/login.css";
+@import "screens/friends.css";
+
+/* 위의 순서들을 지켜야한다. 예로  @import "variables.css";
+가 밑에 있으면 작동 X*/
+body {
+  background-color: ivory;
+  font-family: roboto, "Times New Roman", Times, serif;
+  height: 1000vh;
+  color: #2e363e;
+}
