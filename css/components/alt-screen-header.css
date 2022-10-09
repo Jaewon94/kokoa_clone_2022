@@ -5,7 +5,9 @@
   align-items: center;
   background-color: #abc1d1;
 }
-
+.bg-ivory {
+  background-color: ivory;
+}
 .alt-header__title {
   font-size: 28px;
   font-weight: 600;
