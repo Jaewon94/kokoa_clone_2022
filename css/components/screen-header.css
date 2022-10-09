@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px;
+  padding: var(--horizontal-space);
+  margin-bottom: 10px;
 }
 .screen-header__title {
   font-size: 28px;
@@ -10,4 +11,10 @@
 }
 .screen-header__icons span {
   margin-left: 20px;
+}
+.icon-cog {
+  position: relative;
+}
+.icon-cog > .dot {
+  bottom: 20px;
 }

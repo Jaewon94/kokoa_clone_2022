@@ -6,16 +6,24 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
-
+@import "components/user-components.css";
+@import "components/badge.css";
+@import "components/dot.css";
+@import "components/find.css";
+@import "components/icon-row.css";
 /* screems */
 @import "screens/login.css";
 @import "screens/friends.css";
-
+@import "screens/more.css";
+@import "screens/settings.css";
 /* 위의 순서들을 지켜야한다. 예로  @import "variables.css";
 가 밑에 있으면 작동 X*/
 body {
   background-color: ivory;
   font-family: roboto, "Times New Roman", Times, serif;
-  height: 1000vh;
+  height: 200vh;
   color: #2e363e;
+}
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }
